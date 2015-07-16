@@ -9,7 +9,7 @@ This document outlines the mandatory capabilities and designated
 sections required to exist in a software installation in order to
 be eligible to use marks controlled by the OpenStack Foundation.
 
-This document was generated from the master JSON version.
+This document was generated from the `master JSON version <2015.05.json>`_.
 
 Releases Covered
 ==============================
