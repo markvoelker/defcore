@@ -1,0 +1,23 @@
+Capability,Widely Deployed,Used by Tools,Used by Clients,Future Direction,Complete,Stable,Discoverable,Documented,Core in Last Release,Foundation,Atomic,Proximity,Non-Admin,Total
+network-floating-ips-associate,0,1,1,1,1,1,1,1,0,1,1,1,0,83
+network-floating-ips-create,0,1,1,1,1,1,1,1,0,1,1,1,0,83
+network-floating-ips-update,0,1,1,1,1,1,1,1,0,1,1,1,0,83
+network-floating-ips-delete,0,1,1,1,1,1,1,1,0,1,1,1,0,83
+network-l2-create,1,1,1,1,1,1,1,1,0,1,1,1,0,91
+network-l2-delete,1,1,1,1,1,1,1,1,0,1,1,1,0,91
+network-l2-external,?,?,?,?,?,?,?,?,?,?,?,?,0,0
+network-l2-list,1,1,1,1,1,1,1,1,0,1,1,1,0,91
+network-l2-port,1,1,1,1,1,1,1,1,0,1,1,1,0,91
+network-l2-show,1,1,1,1,1,1,1,1,0,1,1,1,0,91
+network-l2-update,1,1,1,1,1,1,1,1,0,1,1,1,0,91
+network-l3-add,?,1,1,1,1,1,1,1,0,1,1,1,0,-83
+network-l3-convert,0,0,0,1,?,?,0,0,0,0,0,0,0,-9
+network-l3-create,?,1,1,1,1,1,1,1,0,1,1,1,0,-83
+network-l3-delete,?,1,1,1,1,1,1,1,0,1,1,1,0,-83
+network-l3-router,?,1,1,1,1,1,1,1,0,1,1,1,0,-83
+network-l3-show,?,1,1,1,1,1,1,1,0,1,1,1,0,-83
+network-l3-update,?,1,1,1,1,1,1,1,0,1,1,1,0,-83
+network-security-groups-create,?,1,1,1,1,1,1,1,0,?,1,1,0,-75
+network-security-groups-delete,?,1,1,1,1,1,1,1,0,?,1,1,0,-75
+network-security-groups-list,?,1,1,1,1,1,1,1,0,?,1,1,0,-75
+network-security-groups-show,?,1,1,1,1,1,1,1,0,?,1,1,0,-75
