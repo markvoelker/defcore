@@ -207,7 +207,6 @@ C3. Vendor Grievance Process
      (known as flagging).
   3. The DefCore committee will acknowledge vendor requests to flag tests
      within 30 days.
-  4. Vendors may not request flagging all tests in a capability.
 
 C4. Results of Vendor Self-Tests will be open
 
