@@ -21,7 +21,7 @@ Expected Time line:
 +------------+-----------+--------------------------------------+-----------+
 | Summit     | S         | Review status                        | Community |
 +            +           +--------------------------------------+-----------+
-|            |           | Advisory/Deprecated items selected   | DefCore   |
+|            |           | Deprecated items selected            | DefCore   |
 +------------+-----------+--------------------------------------+-----------+
 | +1 month   | S+1       | Self-testing                         | Vendors   |
 +------------+-----------+--------------------------------------+-----------+
@@ -82,21 +82,19 @@ A3. DefCore Collects Recommendations for Designated Sections
 
   1. Designated Sections will not be removed without being deprecated in the
      previous Guideline.
-  2. Designated Sections will not be added without being advisory in the
-     previous Guideline.
-  3. Designated Sections will not be added or be made advisory unless the
-     corresponding code base is designated as part of the "TC-approved release"
+  2. Designated Sections will not be added unless the corresponding code
+     base is designated as part of the "TC-approved release"
      by the Technical Committee (see bylaws of the Foundation, section
      4.1(b)(iii)).
-  4. Technical leadership may, but is not required to, assist DefCore with
-     defining advisory sections for projects that have advisory or required
+  3. Technical leadership may, but is not required to, assist DefCore with
+     defining designated sections for projects that have required
      capabilities.
-  5. Designated Sections may be sufficiently defined for Guidelines using
+  4. Designated Sections may be sufficiently defined for Guidelines using
      general descriptions.
-  6. DefCore will present A3.4 descriptions to the Board for approval.
-  7. Technical leadership may, but is not required to, provide more specific
+  5. DefCore will present A3.4 descriptions to the Board for approval.
+  6. Technical leadership may, but is not required to, provide more specific
      details describing the Designated Sections for a project.
-  8. Designated Sections will be included in the JSON Guideline.
+  7. Designated Sections will be included in the JSON Guideline.
 
 A4. DefCore Committee identifies required capabilities
 
@@ -110,8 +108,6 @@ A4. DefCore Committee identifies required capabilities
      capability is required.
   5. Capabilities will not be removed without being deprecated in the
      previous Guideline.
-  6. Capabilities will not be added without being advisory in the previous
-     Guideline.
 
 A5. Foundation Staff recommends OpenStack Components and OpenStack Platform
     Scope

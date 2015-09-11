@@ -10,9 +10,6 @@ capability groupings are passed.
 TERMS:
 ----------------------------------------
 
-Advisory
-  Capabilities that have been suggested for the next guideline.
-
 Capability
   The functionality ensured by a set of tests collected into
   a group as defined by the DefCore committee Required - capabilities that
