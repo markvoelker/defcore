@@ -171,6 +171,30 @@ B4. For Gerrit reviews, DefCore CoChairs act as joint PTLs
   3. DefCore Committee members may proxy change requests as long as the
      requesting party is explicitly acknowledged.
 
+B5. Technical Committee and User Committee Representation
+
+  1. The Technical Committee will be represented on the DefCore Committee
+     by two liaisons appointed by the Technical Committee.  One or both
+     liaisons must be members of the Technical Committee.
+  2. The User Committee will be represented on the DefCore Committee
+     by two liaisons appointed by the User Committee.  One or both
+     liaisons must be members of the User Committee.
+  3. The DefCore Committee shall appoint two liaisons to the Technical
+     Committee.  These liaisons will be charged with regular attendance
+     at Technical Committee meetings and will serve as a point of contact
+     to foster communication with the Technical Committee.
+  4. The DefCore Committee shall appoint two liaisons to the User
+     Committee.  These liaisons will be charged with regular attendance
+     at User Committee meetings and will serve as a point of contact
+     to foster communication with the User Committee.
+  5. The DefCore Committee will draft an bi-annual report detailing
+     approximately the top five technical challenges it faces in producing
+     strong Guidelines to be delivered to the Technical and User Committees
+     at the Design Summit.  The report is intended to advise the TC of areas
+     where technical governance assistance is requested to help resolve
+     interoperability challenges between or among projects, and to advise
+     the User Committee of interoperability challenges that users may face.
+
 Community Review & Vendor Self-Test (C)
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
