@@ -1725,12 +1725,12 @@
     "atomic": {
         "Description": "Capabilities is unique and cannot be built out of other must-pass capabilities",
         "name": "Atomic",
-        "weight": 8
+        "weight": 6
     },
     "clients": {
         "Description": "Candidates are widely used capabilities: Should be included if part of common libraries (Fog, Apache jclouds, etc)",
         "name": "Used by Clients",
-        "weight": 8
+        "weight": 10
     },
     "complete": {
         "Description": "Where the code being tested has a designated area of alternate implementation (extension framework) as per the Core Principles, there should be parity in capability tested across extension implementations. This also implies that the capability test is not configuration specific or locked to non-open technology",
@@ -1755,12 +1755,12 @@
     "foundation": {
         "Description": "Test capabilities that are required by other must-pass tests and/or depended on by many other capabilities",
         "name": "Foundation",
-        "weight": 8
+        "weight": 9
     },
     "future": {
         "Description": "Should reflect future technical direction (from the project technical teams and the TC) and help manage deprecated capabilities",
         "name": "Future Direction",
-        "weight": 9
+        "weight": 11
     },
     "proximity": {
         "Description": "Sometimes called a Test Cluster, selects for Capabilities that are related to Core Capabilities. This helps ensure that related capabilities are managed together",
@@ -1780,7 +1780,7 @@
     "tools": {
         "Description": "Candidates are widely used capabilities:Should be included if supported by common tools (RightScale, Scalr, CloudForms, ...)",
         "name": "Used by Tools",
-        "weight": 9
+        "weight": 6
     }
   }
 }
