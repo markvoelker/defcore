@@ -82,7 +82,8 @@
         "volumes-v2-transfer",
         "volumes-v2-reserve",
         "volumes-v2-readonly",
-        "identity-v3-api-discovery"
+        "identity-v3-api-discovery",
+        "compute-boot-linux-guest"
       ],
       "deprecated": [
         "identity-v2-tokens-create",
@@ -116,6 +117,29 @@
     }
   },
   "capabilities": {
+    "compute-boot-linux-guest": {
+      "achievements": [
+        "foundation",
+        "complete",
+        "proximity",
+        "clients",
+        "future",
+        "atomic",
+        "stable",
+        "tools",
+        "deployed",
+        "doc"
+      ],
+      "admin": false,
+      "description": "Compute service must be able to boot an instance that runs Linux.",
+      "project": "nova",
+      "required-since": "",
+      "tests": {
+        "TBD": {
+          "idempotent_id": "TBD"
+        }
+      }
+    },
     "compute-list-api-versions": {
       "achievements": [
         "foundation",

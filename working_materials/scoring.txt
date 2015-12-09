@@ -96,6 +96,7 @@ Notes:
 Compute
 -------
 compute-list-api-versions:             [1,0,0] [1,1,1] [1,1,0] [1,1,1] [1] [74]
+compute-boot-linux-guest:              [1,1,1] [1,1,1] [0,1,0] [1,1,1] [1] [83]
 
 Notes:
   * There has been some discussion that this capability is not widely
@@ -130,12 +131,21 @@ Notes:
     new Capabilities on account of strong indications from the community
     that such a Capability is important for API microversioning going
     forward [5].
+  * The compute-boot-linux-guest capability is being added as an outcome
+    of the discussion surrounding [6] which evolved to include the Board
+    of Directors [7] and the TC [8].  One outcome of that discussion is that
+    some participants believe there's a reasonable expectation from
+    customer that OpenStack Powered (TM) products should be able to boot
+    a Linux guest instance.
 
 [1] https://bugs.launchpad.net/python-novaclient/+bug/1491579
 [2] http://git.openstack.org/cgit/openstack/defcore/tree/doc/source/process/CoreCriteria.rst#n44
 [3] http://git.openstack.org/cgit/openstack/defcore/tree/doc/source/process/CoreCriteria.rst#n48
 [4] http://git.openstack.org/cgit/openstack/defcore/tree/doc/source/process/CoreCriteria.rst#n90
 [5] http://eavesdrop.openstack.org/meetings/defcore_flag_14/2015/defcore_flag_14.2015-09-09-15.03.log.html#l-13 
+[6] https://review.openstack.org/#/c/244782/
+[7] https://wiki.openstack.org/wiki/Governance/Foundation/3Dec2015BoardMeeting
+[8] http://eavesdrop.openstack.org/meetings/tc/2015/tc.2015-12-08-20.01.html
 
 Image
 -----
