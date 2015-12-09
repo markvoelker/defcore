@@ -50,7 +50,14 @@
         "compute-servers-metadata-get",
         "compute-servers-metadata-list",
         "compute-servers-metadata-set",
-        "compute-servers-metadata-update"
+        "compute-servers-metadata-update",
+        "images-v2-remove",
+        "images-v2-update",
+        "images-v2-share",
+        "images-v2-import",
+        "images-v2-list",
+        "images-v2-delete",
+        "images-v2-get"
       ],
       "advisory": [
         "networks-floating-ips-CRUD-and-associate",
@@ -59,13 +66,6 @@
         "networks-l3-CRUD",
         "networks-security-groups-CRUD",
         "compute-list-api-versions",
-        "images-v2-remove",
-        "images-v2-update",
-        "images-v2-share",
-        "images-v2-import",
-        "images-v2-list",
-        "images-v2-delete",
-        "images-v2-get",
         "volumes-v2-create-delete",
         "volumes-v2-attach-detach",
         "volumes-v2-snapshot-create-delete",
@@ -1434,7 +1434,7 @@
       "admin": false,
       "description": "Image deletion tests using the Glance v2 API",
       "project": "glance",
-      "required-since": "",
+      "required-since": "2016.07",
       "tests": {
         "tempest.api.image.v2.test_images.BasicOperationsImagesTest.test_delete_image": {
           "idempotent_id": "id-f848bb94-1c6e-45a4-8726-39e3a5b23535"
@@ -1465,7 +1465,7 @@
       "admin": false,
       "description": "Image get tests using the Glance v2 API",
       "project": "glance",
-      "required-since": "",
+      "required-since": "2016.07",
       "tests": {
         "tempest.api.image.v2.test_images.ListImagesTest.test_get_image_schema": {
           "idempotent_id": "id-622b925c-479f-4736-860d-adeaf13bc371"
@@ -1511,7 +1511,7 @@
       "admin": false,
       "description": "Image list tests using the Glance v2 API",
       "project": "glance",
-      "required-since": "",
+      "required-since": "2016.07",
       "tests": {
         "tempest.api.image.v2.test_images.ListImagesTest.test_list_images_param_container_format": {
           "idempotent_id": "id-9959ca1d-1aa7-4b7a-a1ea-0fff0499b37e"
@@ -1554,7 +1554,7 @@
       "admin": false,
       "description": "Image registration tests using the Glance v2 API",
       "project": "glance",
-      "required-since": "",
+      "required-since": "2016.07",
       "tests": {
         "tempest.api.image.v2.test_images.BasicOperationsImagesTest.test_register_upload_get_image_file": {
           "idempotent_id": "id-139b765e-7f3d-4b3d-8b37-3ca3876ee318"
@@ -1582,7 +1582,7 @@
       "admin": false,
       "description": "Image removal tests using the Glance v2 API",
       "project": "glance",
-      "required-since": "",
+      "required-since": "2016.07",
       "tests": {
         "tempest.api.image.v2.test_images_member.ImagesMemberTest.test_remove_image_member": {
           "idempotent_id": "id-72989bc7-2268-48ed-af22-8821e835c914"
@@ -1604,7 +1604,7 @@
       "admin": false,
       "description": "Image sharing tests using the Glance v2 API",
       "project": "glance",
-      "required-since": "",
+      "required-since": "2016.07",
       "tests": {
         "tempest.api.image.v2.test_images_member.ImagesMemberTest.test_image_share_accept": {
           "idempotent_id": "id-5934c6ea-27dc-4d6e-9421-eeb5e045494a"
@@ -1635,7 +1635,7 @@
       "admin": false,
       "description": "Image update tests using the Glance v2 API",
       "project": "glance",
-      "required-since": "",
+      "required-since": "2016.07",
       "tests": {
         "tempest.api.image.v2.test_images.BasicOperationsImagesTest.test_update_image": {
           "idempotent_id": "id-f66891a7-a35c-41a8-b590-a065c2a1caa6"
