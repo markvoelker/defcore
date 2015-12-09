@@ -82,7 +82,8 @@
         "volumes-v2-transfer",
         "volumes-v2-reserve",
         "volumes-v2-readonly",
-        "identity-v3-api-discovery"
+        "identity-v3-api-discovery",
+        "compute-full-virtualization"
       ],
       "deprecated": [
         "identity-v2-tokens-create",
@@ -238,6 +239,41 @@
             "reason": "Test implicitly depends on Glance v1 API, which is a SUPPORTED but not the CURRENT version. Vendors may have Glance v1 disabled in favor of Glance v2.",
             "action": "Implement v2 support for Glance v2 API in Nova. Fix implicit dependency on Glance v1 in test."
           }
+        }
+      }
+    },
+    "compute-full-virtualization": {
+      "achievements": [
+        "foundation",
+        "complete",
+        "proximity",
+        "clients",
+        "future",
+        "atomic",
+        "stable",
+        "tools",
+        "deployed",
+        "doc"
+      ],
+      "admin": false,
+      "description": "The compute service should be able to boot guest instances on at least one full-virtualization hypervisor (e.g. not container system, baremetal, etc but a Type 1 or 2 hypervisor).",
+      "project": "nova",
+      "required-since": "",
+      "tests": {
+        "tempest.api.compute.servers.test_create_server.ServersTestJSON.test_host_name_is_same_as_server_name": {
+          "idempotent_id": "id-ac1ad47f-984b-4441-9274-c9079b7a0666"
+        },
+        "tempest.api.compute.servers.test_create_server.ServersTestManualDisk.test_host_name_is_same_as_server_name": {
+          "idempotent_id": "id-ac1ad47f-984b-4441-9274-c9079b7a0666"
+        },
+        "tempest.api.compute.servers.test_create_server.ServersTestJSON.test_verify_created_server_vcpus":{
+          "idempotent_id": "id-cbc0f52f-05aa-492b-bdc1-84b575ca294b"
+        },
+        "tempest.api.compute.servers.test_create_server.ServersTestManualDisk.test_verify_created_server_vcpus": {
+          "idempotent_id": "id-cbc0f52f-05aa-492b-bdc1-84b575ca294b"
+        },
+        "tempest.api.compute.volumes.test_attach_volume.AttachVolumeTestJSON.test_attach_detach_volume": {
+          "idempotent_id": "id-52e9045a-e90d-4c0d-9087-79d657faffff"
         }
       }
     },
