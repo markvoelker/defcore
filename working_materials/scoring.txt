@@ -45,6 +45,8 @@ network-extensions-provider-add:      [1,1,1] [1,1,1] [1,1,0] [1,1,1] [0] [0]
 network-extensions-provider-create:   [1,1,1] [1,1,1] [1,1,0] [1,1,1] [0] [0]
 network-extensions-provider-delete:   [1,1,1] [1,1,1] [1,1,0] [1,1,1] [0] [0]
 network-extensions-provider-show:     [1,1,1] [1,1,1] [1,1,0] [1,1,1] [0] [0]
+network-subnet-pools:
+network-api-verison:
 
 Notes:
   * DVR-related testcases (if any) will not be added until DVR gains wider
@@ -156,6 +158,7 @@ images-v2-import:                [1,0,1] [1,1,1] [1,1,0] [1,0,1] [1] [79]
 images-v2-list:                  [1,0,1] [1,1,1] [1,1,0] [1,0,1] [1] [79]
 images-v2-delete:                [1,0,1] [1,1,1] [1,1,0] [1,0,1] [1] [79]
 images-v2-get:                   [1,0,1] [1,1,1] [1,1,0] [1,0,1] [1] [79]
+images-v2-deactivate:
 
 Notes:
     * Image creation is captured under the register operation.
