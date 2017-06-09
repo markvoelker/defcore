@@ -39,6 +39,15 @@ Proposed Guideline
 
    guidelines/next.rst
 
+===============
+Draft Documents
+===============
+
+.. toctree::
+   :maxdepth: 1
+
+   process/ExtensionPrograms.rst
+
 ===================
 Inactive Guidelines
 ===================
